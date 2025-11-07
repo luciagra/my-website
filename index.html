@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUCIA GRASSO</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #111;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    header h1 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: hotpink;
+    }
+
+    section {
+      padding: 2rem 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    section img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      margin-top: 2rem;
+    }
+
+    #welcome img {
+      width: 100vw;      /* full viewport width */
+      max-width: none;   /* override the 90% limit */
+      border-radius: 0;  /* optional: remove rounded corners */
+      margin: 0;         /* remove margin so it reaches the edges */
+      display: block;
+    }
+
+
+    #welcome {
+      background-color: #000000;
+    }
+
+    #resume {
+      background-color: #000000;
+    }
+
+    #contact {
+      background-color: #fceaff;
+    }
+
+    #scrapbook {
+      background-color: hotpink;
+    }
+
+    #blog {
+      background-color: #f2faff;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      max-width: 700px;
+      line-height: 1.6;
+      margin: 0 auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #000000;
+      font-size: 2rem;
+      color: #ffffff;
+    }
+
+    #content-creation img,
+    #resume img {
+      width: 100vw;        /* span full viewport width */
+      max-width: none;
+      border-radius: 0;
+      margin: 0;
+      display: block;
+    }
+
+
+    .contact-form input, .contact-form textarea {
+      width: 80%;
+      max-width: 500px;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      padding: 0.8rem 1.5rem;
+      border: none;
+      background-color: hotpink;
+      color: white;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: hotpink;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>LUCIA GRASSO</h1>
+    <nav>
+      <a href="#welcome">welcome</a>
+      <a href="#scrapbook">me me me me</a>
+      <a href="#resume">RESUME</a>
+      <a href="#seriously">seriously</a>
+      <a href="#blog">On My Mind</a>
+      <a href="#contact">hmu</a>
+    </nav>
+  </header>
+
+  <section id="welcome">
+      <img src="01_Winkled-Papers_Posters_By-Mocku_DEMO.png" alt="Lucia portfolio visual 1">
+  </section>
+
+  <section id="scrapbook">
+     <img src="forreal.png" alt="Lucia scrapbook collage">
+  </section>
+
+  <section id="resume">
+    <img src="FREE-Glued-Posters-Mockup_By-Mocku.png" alt="Lucia Grasso Resume">
+  </section>
+
+  <section id="seriously">
+     <img src="descript.png" alt="Lucia profesh description">
+  </section>
+
+  <section id="blog">
+    <h2>On My Mind</h2>
+    <p>COMING SOON...</p>
+  </section>
+
+  <section id="contact">
+  <h2>hmu</h2>
+  <p>other places u can find me</p>
+  <div class="contact-buttons">
+    <button onclick="window.open('https://www.linkedin.com/in/lucia-grasso', '_blank')">linkedin</button>
+    <button onclick="window.open('https://github.com/luciagra', '_blank')">github</button>
+    <button onclick="window.open('mailto:luciagra@umich.edu')">email</button>
+  </div>
+</section>
+
+  <footer>
+    © 2025 YAAAA I MADE THIS
+  </footer>
+
+</body>
+</html>
